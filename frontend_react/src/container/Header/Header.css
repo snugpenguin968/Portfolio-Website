@@ -1,0 +1,128 @@
+#home {
+  /*position: relative;
+    background: url("../../assets/bgIMG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;*/
+}
+
+#home .app__wrapper {
+  padding: 0;
+}
+
+#home .app__wrapper .copyright {
+  display: none;
+}
+
+.app__header {
+  display: inline-block;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 4rem 0rem 0rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__header {
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__header {
+    padding: 6rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app__header-info {
+    width: 100%;
+    margin-right: 0rem;
+  }
+}
+
+.app__header-badge {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.app__header-badge .image {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.app__header-badge .badge-cmp {
+  position: absolute;
+  padding: 1rem 2rem;
+  color: var(--white-color);
+  border-radius: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  -webkit-box-shadow: 0px 0px 20px --white-color;
+          box-shadow: 0px 0px 20px --white-color;
+}
+
+.app__header-badge .badge-cmp .title {
+  color: var(--secondary-color);
+}
+
+.app__header-badge .badge-cmp .title {
+  font-size: 2em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.app__header-badge .badge-cmp .myname {
+  font-size: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.app__header-badge .badge-cmp .random_description {
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .app__header-badge {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

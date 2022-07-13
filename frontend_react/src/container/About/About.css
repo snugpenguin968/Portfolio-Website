@@ -1,0 +1,50 @@
+.about__header {
+  margin: 0px;
+  height: 100%;
+}
+
+.about__header .about__title {
+  padding-top: 1.5em;
+  color: var(--white-color);
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  max-width: 100vw;
+}
+
+.about__header .about__image {
+  margin-left: 5em;
+  display: inline-block;
+  float: left;
+  clear: left;
+  padding-bottom: 10em;
+}
+
+.about__header .about__description {
+  display: inline-block;
+  padding-top: 1em;
+  margin-left: 3em;
+  vertical-align: middle;
+  color: var(--white-color);
+  font-size: 1.2em;
+  text-indent: 50px;
+  max-width: 60vw;
+}
+
+.about__header .about__description .my_name {
+  color: var(--secondary-color);
+}
+
+.about__header .about__description .school_name {
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--white-color);
+}
+/*# sourceMappingURL=About.css.map */
